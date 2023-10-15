@@ -1,3 +1,7 @@
+![Banner GitHub](https://github.com/jayantsB123/jayantsB123/blob/5e1c7d95c6239f8b546130203a5cb8cebc59a7e2/background.png)
+
+
+
 <h1 align="center">Hi 👋, I'm Jayant Singh Bhadauria</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
