@@ -1,4 +1,4 @@
-![Banner GitHub](https://github.com/jayantsB123/jayantsB123/blob/5e1c7d95c6239f8b546130203a5cb8cebc59a7e2/background.png)
+![Banner GitHub]([https://github.com/jayantsB123/jayantsB123/blob/5e1c7d95c6239f8b546130203a5cb8cebc59a7e2/background.png](https://github.com/jayantsB123/jayantsB123/blob/main/background.png))
 
 
 
@@ -17,7 +17,7 @@
 
 - 📄 Know about my experiences [https://drive.google.com/file/d/1iTEu3ubt44QS0h5aJc4hMb70npaN7E6t/view](https://drive.google.com/file/d/1iTEu3ubt44QS0h5aJc4hMb70npaN7E6t/view)
 
-- ⚡ Fun fact **I'm a computer science major, which means I have a PhD in Googling error messages. My computer just loves to test my problem-solving skills with its daily dose of cryptic error codes. It's almost like a game, but with a lot more frustration and a slightly diminished sense of self-worth. Ah, the joys of coding!**
+- ⚡ Fun fact:-  **I'm a computer science major, which means I have a PhD in Googling error messages. My computer just loves to test my problem-solving skills with its daily dose of cryptic error codes. It's almost like a game, but with a lot more frustration and a slightly diminished sense of self-worth. Ah, the joys of coding!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
