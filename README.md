@@ -5,6 +5,8 @@
 <h1 align="center">Hi 👋, I'm Jayant Singh Bhadauria</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
+<img align="right" alt="coding" width="400" src="https://github.com/jayantsB123/jayantsB123/blob/main/assets/124.gif">
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jayantsb123&label=Profile%20views&color=0e75b6&style=flat" alt="jayantsb123" /> </p>
 
 - 🔭 I’m currently working on [My Portfolio website](https://jayant07-portfolio.netlify.app/)
