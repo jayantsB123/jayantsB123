@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Jayant Singh Bhadauria</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">"Elevating Code, Dominating Competitions, and Mastering the Game – Where Full Stack Development, Competitive Programming, and Sports Passion Collide!"</h3>
 
 <img align="right" alt="coding" width="400" src="https://github.com/jayantsB123/jayantsB123/blob/main/assets/124.gif">
 
