@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **bhadauria.jayant07@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1iTEu3ubt44QS0h5aJc4hMb70npaN7E6t/view](https://drive.google.com/file/d/1iTEu3ubt44QS0h5aJc4hMb70npaN7E6t/view)
+- 📄 Know about my experiences [[https://drive.google.com/file/d/1iTEu3ubt44QS0h5aJc4hMb70npaN7E6t/view](https://drive.google.com/file/d/1zLMx1gffwbHYzUKeSHrpYff3pTuVH4GD/view?usp=drive_link)]
 
 - ⚡ Fun fact:-  **I'm a computer science major, which means I have a PhD in Googling error messages. My computer just loves to test my problem-solving skills with its daily dose of cryptic error codes. It's almost like a game, but with a lot more frustration and a slightly diminished sense of self-worth. Ah, the joys of coding!**
 
