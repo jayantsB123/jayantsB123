@@ -34,5 +34,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jayantsb123&show_icons=true&locale=en" alt="jayantsb123" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jayantsb123&" alt="jayantsb123" /></p>
-
-[![trophy](https://github-profile-trophy.vercel.app/?jayantsb123=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
