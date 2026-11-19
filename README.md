@@ -47,32 +47,6 @@ From high-throughput token redemption to offline wallet recovery, I enjoy workin
 
 ---
 
-## 💳 Sentinel-Ledger — Building a Retry-Safe Payment Gateway
-
-<a href="https://github.com/jayantsB123/Sentinel-Ledger">
-  <img width="100%" src="./assets/payment-retry.svg" alt="Payment retry flow showing distributed locking, idempotency validation and double-entry ledger processing">
-</a>
-
-What happens when a payment succeeds, but the client times out and sends the same request again?
-
-**You definitely don't want to charge the customer twice.**
-
-That's the problem I wanted to solve with Sentinel-Ledger.
-
-Built using **Java, Spring Boot, Redis and PostgreSQL**, it explores:
-
-- **Idempotency:** Safely handles duplicate payment requests.
-- **Distributed locking:** Coordinates concurrent requests using Redis.
-- **Double-entry bookkeeping:** Maintains consistent debit and credit entries.
-- **Request fingerprinting:** SHA-256 detects reused idempotency keys with different payment details.
-- **Transaction safety:** PostgreSQL constraints and transactional processing protect ledger integrity.
-
-<a href="https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java">
-  **Explore the payment processing logic →**
-</a>
-
----
-
 ## 🏆 Beyond the Terminal
 
 I like competing, building things under pressure, and occasionally making computers solve problems that I probably shouldn't have spent three hours on.
