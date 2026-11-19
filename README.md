@@ -1,19 +1,24 @@
-<h1 align="center">Hey 👋, I’m Jayant Singh Bhadauria</h1>
-<p align="center"><strong>Software Development Engineer at Sarvatra Technologies · Pune, India</strong><br>I build systems that recover failed digital rupee payments, redeem expiring tokens, and provision wallets safely across servers.</p>
+<img align="right" width="24%" src="./assets/124.gif" alt="Animated developer working at a laptop">
 
-<img align="right" width="31%" src="./assets/124.gif" alt="Animated developer working at a laptop">
+# Hey, I’m Jayant Singh Bhadauria 👋
 
-### Digital rupee engineering
+`Software developer` · Pune, India
+
+I write Java and like problems where timing matters. I built [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger) to explore one of them: when two identical payment requests arrive at once, how do you make sure money moves only once?
+
+I also compete on [Codeforces](https://codeforces.com/profile/response_404) and build things in React. My [sorting visualizer](https://github.com/jayantsB123/Dynamic-Sorting-Visualizer) brings those interests together. Shuffle an array and watch how five algorithms go about sorting it.
+
+<p><a href="https://jayant07-portfolio.netlify.app/"><img height="25" alt="Portfolio" src="https://img.shields.io/badge/Portfolio-6546A6?style=flat-square"></a> <a href="https://www.linkedin.com/in/jayant-singh-35a66222a/"><img height="25" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a> <a href="mailto:bhadauria.jayant07@gmail.com"><img height="25" alt="Email" src="https://img.shields.io/badge/Email-9C4055?style=flat-square&amp;logo=gmail&amp;logoColor=white"></a> <a href="https://leetcode.com/u/MidnightSnarl/"><img height="25" alt="LeetCode" src="https://img.shields.io/badge/LeetCode-594423?style=flat-square&amp;logo=leetcode&amp;logoColor=white"></a></p>
+
+<br clear="all">
+
+### At Sarvatra · Digital rupee engineering
 
 **Payment recovery.** I built the reconciliation engine used by ICICI, PNB and SBI. It handles four ways to recover funds after a failed digital rupee transaction, following RBI and NPCI settlement rules.
 
 **Programmable tokens.** I built the expiry and redemption engine running at ICICI, where the live base exceeds 100 million tokens. I reworked its SQL and concurrency handling and validated **100,000+ redemptions per hour** across multiple nodes in user acceptance testing (UAT).
 
 **Offline payments.** I extended the reconciliation architecture for our offline digital rupee entry at RBI Harbinger 2025. Our team placed **second nationally**.
-
-<p><a href="https://jayant07-portfolio.netlify.app/"><img height="25" alt="Portfolio" src="https://img.shields.io/badge/Portfolio-6546A6?style=flat-square"></a> <a href="https://www.linkedin.com/in/jayant-singh-35a66222a/"><img height="25" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a> <a href="mailto:bhadauria.jayant07@gmail.com"><img height="25" alt="Email" src="https://img.shields.io/badge/Email-9C4055?style=flat-square&amp;logo=gmail&amp;logoColor=white"></a> <a href="https://leetcode.com/u/MidnightSnarl/"><img height="25" alt="LeetCode" src="https://img.shields.io/badge/LeetCode-594423?style=flat-square&amp;logo=leetcode&amp;logoColor=white"></a></p>
-
-<br clear="all">
 
 <img width="100%" src="./assets/digital-rupee-scale.svg" alt="ICICI production base: 100M+ tokens. Multi-node UAT: 100K+ redemptions per hour. Aadhaar-based wallet rollout scope: 13M+ users.">
 
