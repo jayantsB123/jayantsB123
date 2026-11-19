@@ -2,39 +2,21 @@
 
 # Hey, I’m Jayant Singh Bhadauria 👋
 
-`Software developer` · Pune, India
+Pune, India · Java backend developer · Competitive programmer
 
-I write Java and like problems where timing matters. I built [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger) to explore one of them: when two identical payment requests arrive at once, how do you make sure money moves only once?
+I build backends in **Java and Spring Boot** and work across the stack with **React**. My kind of puzzle is getting several servers to agree on what happened. In [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger), that means a payment can be retried without moving money twice.
 
-I also compete on [Codeforces](https://codeforces.com/profile/response_404) and build things in React. My [sorting visualizer](https://github.com/jayantsB123/Dynamic-Sorting-Visualizer) brings those interests together. Shuffle an array and watch how five algorithms go about sorting it.
+I’m [response_404 on Codeforces](https://codeforces.com/profile/response_404). Away from the keyboard, I lift, run, and plan trips around a good trek or a long ride on my motorcycle.
 
 <p><a href="https://jayant07-portfolio.netlify.app/"><img height="25" alt="Portfolio" src="https://img.shields.io/badge/Portfolio-6546A6?style=flat-square"></a> <a href="https://www.linkedin.com/in/jayant-singh-35a66222a/"><img height="25" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a> <a href="mailto:bhadauria.jayant07@gmail.com"><img height="25" alt="Email" src="https://img.shields.io/badge/Email-9C4055?style=flat-square&amp;logo=gmail&amp;logoColor=white"></a> <a href="https://leetcode.com/u/MidnightSnarl/"><img height="25" alt="LeetCode" src="https://img.shields.io/badge/LeetCode-594423?style=flat-square&amp;logo=leetcode&amp;logoColor=white"></a></p>
 
 <br clear="all">
 
-### At Sarvatra · Digital rupee engineering
+### CBDC & UPI developer at Sarvatra · Currently building India’s digital rupee (e₹)
 
-**Payment recovery.** I built the reconciliation engine used by ICICI, PNB and SBI. It handles four ways to recover funds after a failed digital rupee transaction, following RBI and NPCI settlement rules.
+<img width="100%" src="./assets/digital-rupee-scale.svg" alt="My token redemption engine supports ICICI’s live base of 100M+ tokens. In multi-node acceptance tests, I validated 100K+ redemptions per hour. I designed wallet provisioning for a rollout covering 13M+ users.">
 
-**Programmable tokens.** I built the expiry and redemption engine running at ICICI, where the live base exceeds 100 million tokens. I reworked its SQL and concurrency handling and validated **100,000+ redemptions per hour** across multiple nodes in user acceptance testing (UAT).
-
-**Offline payments.** I extended the reconciliation architecture for our offline digital rupee entry at RBI Harbinger 2025. Our team placed **second nationally**.
-
-<img width="100%" src="./assets/digital-rupee-scale.svg" alt="ICICI production base: 100M+ tokens. Multi-node UAT: 100K+ redemptions per hour. Aadhaar-based wallet rollout scope: 13M+ users.">
-
-<details><summary><strong>More of my work at Sarvatra</strong> · January 2025–present</summary>
-
-**Software Development Engineer · July 2025–present**
-
-- I designed Aadhaar-based wallet provisioning for a rollout covering 13M+ users. Distributed locks coordinate workers, idempotent retries prevent duplicate wallets, and compensating steps roll back partial work.
-- I designed a Kafka-based wallet-blocking service for ICICI to handle simultaneous block requests across nodes. I also implemented hybrid AES-256/RSA encryption for sensitive SMS gateway payloads in ICICI and PNB’s PMGKAY disbursement flow.
-- The programmable-token engine was Sarvatra’s winning showcase at Global Fintech Fest 2025. Beyond ICICI, the engine reached UAT at SBI, PNB, IDFC, IDBI, Indus and CBI.
-
-**Software Developer Intern · January–June 2025**
-
-I shipped a centralized payment-log stack using Docker, Elasticsearch, Logstash and Kibana. I also designed Account-Check, which validates bank accounts before a transaction and reports specific failure codes to the payment channel.
-
-</details>
+My recovery engine is live at **ICICI, PNB and SBI**. I adapted it for our offline e₹ entry at **RBI Harbinger 2025**, where our team placed **second nationally**.
 
 ### [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger) · My payment gateway
 
@@ -95,3 +77,4 @@ What should happen when a transfer succeeds but the client times out and sends i
   <a href="https://github.com/jayantsB123/Sentinel-Ledger"><img src="./assets/sentinel-pin.svg" width="48%" alt="Open Sentinel-Ledger, my retry-safe payment gateway"></a>
   <a href="https://github.com/jayantsB123/RegisterRover"><img src="./assets/rover-pin.svg" width="48%" alt="Open RegisterRover, a camera-based attendance tracker"></a>
 </p>
+
