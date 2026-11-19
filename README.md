@@ -49,15 +49,25 @@ What should happen when a transfer succeeds but the client times out and sends i
 | 🎯 INNERVE 6.0 | **Top 5 finalist** in an event with **85,000+ registrations** |
 | ⚡ [Codeforces](https://codeforces.com/profile/response_404) & [LeetCode](https://leetcode.com/u/MidnightSnarl/) | **Specialist** on Codeforces, peak **1576**. Solved **1,000+ problems** across both platforms. |
 
-### Languages & tools
+### Languages & skills
 
-<p><img width="34" height="34" alt="Java" title="Java" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"> &nbsp; <img width="34" height="34" alt="Spring" title="Spring" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"> &nbsp; <img width="34" height="34" alt="PostgreSQL" title="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"> &nbsp; <img width="34" height="34" alt="Redis" title="Redis" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg"> &nbsp; <img width="34" height="34" alt="Kafka" title="Kafka" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg"> &nbsp; <img width="34" height="34" alt="Docker" title="Docker" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"> &nbsp; <img width="34" height="34" alt="Kubernetes" title="Kubernetes" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg"> &nbsp; <img width="34" height="34" alt="Gradle" title="Gradle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-original.svg"> &nbsp; <img width="34" height="34" alt="Git" title="Git" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> &nbsp; <img width="34" height="34" alt="React" title="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></p>
+<img width="100%" src="./assets/engineering-stack.svg" alt="Java 8, 11 and 17, C++, Python, and JavaScript with React and Angular. Backend, messaging and storage tools include Spring Boot, jPOS, Hibernate/JPA, Kafka, RabbitMQ, Redis, Oracle, PostgreSQL and MySQL.">
 
-**Backend** · Java, Spring Boot, Hibernate/JPA, jPOS, Kafka, RabbitMQ  
-**Data & testing** · Oracle, PostgreSQL, MySQL, Redis, Flyway, JUnit, Mockito
+<details>
+<summary><strong>Explore my full engineering stack</strong></summary>
 
-**Education** · B.E. in Computer Engineering, Army Institute of Technology, Pune · 2021–2025 · CGPA **8.95**
+| Area | Skills |
+| --- | --- |
+| Languages & frameworks | Java 8/11/17, C++, Python, JavaScript, React, Angular |
+| Backend & APIs | Spring Boot, Hibernate/JPA, REST APIs, microservices, event-driven architecture, jPOS (Q2, TransactionManager, Space) |
+| Concurrency & resilience | Multithreading with Java executors, distributed locking, idempotency, fault tolerance |
+| Messaging & caching | Kafka, RabbitMQ, Redis |
+| Databases | Oracle, PostgreSQL, MySQL, SQL query optimization |
+| Infrastructure & delivery | Docker, Kubernetes, Git, GitHub, Gradle, Flyway |
+| Testing & quality | Unit testing, JUnit, Mockito, test-driven validation, secure coding |
+| Engineering fundamentals | Data structures and algorithms, object-oriented design, distributed systems design |
 
+</details>
 
 ### GitHub activity
 
