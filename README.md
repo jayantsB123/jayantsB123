@@ -1,25 +1,26 @@
-# Jayant Bhadauria
+<h1 align="center">Hey 👋, I’m Jayant Singh Bhadauria</h1>
+<p align="center"><strong>Software engineer at Sarvatra Technologies · Pune, India</strong><br>I write the Java behind digital rupee payment recovery.</p>
 
-I’m a software engineer at Sarvatra Technologies in Pune. I build the parts of the digital rupee payment system that recover failed transfers and redeem programmable tokens when they expire.
+<img align="right" width="34%" src="https://raw.githubusercontent.com/jayantsB123/jayantsB123/main/assets/124.gif" alt="Animated developer working at a laptop">
 
-[Sentinel-Ledger · payment gateway](https://github.com/jayantsB123/Sentinel-Ledger) · [Portfolio](https://jayant07-portfolio.netlify.app/) · [Email](mailto:bhadauria.jayant07@gmail.com)
+### What I work on
 
-## At Sarvatra
+💸 **Digital rupee payments** · I built the engine that recovers failed transfers at ICICI, PNB and SBI.
 
-- **Payment recovery.** I built the reconciliation engine that handles four recovery paths for failed digital rupee transactions. It’s live at ICICI, PNB, and SBI.
-- **Token redemption.** I reworked the SQL and concurrency handling behind ICICI’s redemption engine, which serves a live base of over 100 million tokens. In multi-node acceptance tests, I validated more than 100,000 redemptions per hour.
-- **Offline payments.** I adapted the reconciliation engine for our team’s offline digital rupee entry at RBI Harbinger 2025. We placed second nationally.
+🔁 **[Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger)** · My Spring Boot payment gateway. [Follow a retry](https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java) to see why I check Redis twice before moving money.
 
-## Selected projects
+🎨 **[Sorting Visualizer](https://github.com/jayantsB123/Dynamic-Sorting-Visualizer)** · I built a React playground for five sorting algorithms. [Watch quicksort run.](https://github.com/jayantsB123/Dynamic-Sorting-Visualizer/blob/master/public/assets/_quickSort.gif)
 
-### [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger) · Java, Spring Boot, Redis, PostgreSQL
+### Find me
 
-I built a double-entry payment gateway around a familiar problem. A transfer goes through, the response times out, and the client sends it again. The retry should return the original result without moving money twice.
+<p><a href="https://jayant07-portfolio.netlify.app/"><img height="25" alt="Portfolio" src="https://img.shields.io/badge/Portfolio-6546A6?style=flat-square"></a> <a href="https://www.linkedin.com/in/jayant-singh-35a66222a/"><img height="25" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a> <a href="mailto:bhadauria.jayant07@gmail.com"><img height="25" alt="Email" src="https://img.shields.io/badge/Email-9C4055?style=flat-square&amp;logo=gmail&amp;logoColor=white"></a> <a href="https://leetcode.com/u/MidnightSnarl/"><img height="25" alt="LeetCode" src="https://img.shields.io/badge/LeetCode-594423?style=flat-square&amp;logo=leetcode&amp;logoColor=white"></a></p>
 
-[Follow a retry through the payment service →](https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java) The detail I like here is the second Redis lookup. Another request can finish between the first cache miss and the moment this request acquires the lock.
+<br clear="all">
 
-### [Sorting Visualizer](https://github.com/jayantsB123/Dynamic-Sorting-Visualizer) · React
+### Languages & tools
 
-I made five sorting algorithms playable on a shuffled array. Pick quicksort or gnome sort, change the array size, and watch how differently they move the same values.
+<p><img width="34" height="34" alt="Java" title="Java" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"> &nbsp; <img width="34" height="34" alt="Spring" title="Spring" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"> &nbsp; <img width="34" height="34" alt="PostgreSQL" title="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"> &nbsp; <img width="34" height="34" alt="Redis" title="Redis" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg"> &nbsp; <img width="34" height="34" alt="Kafka" title="Kafka" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg"> &nbsp; <img width="34" height="34" alt="Docker" title="Docker" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"> &nbsp; <img width="34" height="34" alt="Kubernetes" title="Kubernetes" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg"> &nbsp; <img width="34" height="34" alt="Gradle" title="Gradle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-original.svg"> &nbsp; <img width="34" height="34" alt="Git" title="Git" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> &nbsp; <img width="34" height="34" alt="React" title="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></p>
 
-<a href="https://github.com/jayantsB123/Dynamic-Sorting-Visualizer"><img src="https://raw.githubusercontent.com/jayantsB123/Dynamic-Sorting-Visualizer/master/public/assets/_quickSort.gif" width="440" alt="Quicksort rearranging a shuffled array in my sorting visualizer"></a>
+### A few numbers from my work and contests
+
+<p><img width="31%" alt="Over 100 million tokens in ICICI’s live base, where I built the redemption engine" src="./assets/digital-rupee.svg"> <img width="31%" alt="Second nationally with my team at RBI Harbinger 2025 for offline digital rupee payments" src="./assets/harbinger.svg"> <a href="https://codeforces.com/profile/response_404"><img width="31%" alt="Codeforces Specialist, peak rating 1576" src="./assets/codeforces.svg"></a></p>
