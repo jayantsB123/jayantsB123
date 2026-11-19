@@ -68,3 +68,15 @@ What should happen when a transfer succeeds but the client times out and sends i
   <a href="https://github.com/jayantsB123?tab=repositories"><img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jayantsB123&amp;theme=tokyonight" alt="Top languages across my public repositories"></a>
   <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jayantsB123&amp;theme=tokyonight" alt="My GitHub commits, pull requests, issues and stars">
 </p>
+
+
+### Contribution replay
+
+<img src="./assets/contribution-replay.svg" width="100%" alt="Animated replay of my GitHub contribution calendar through November 19, 2026. Brighter squares indicate more contributions.">
+
+### From my pins
+
+<p align="center">
+  <a href="https://github.com/jayantsB123/Sentinel-Ledger"><img src="./assets/sentinel-pin.svg" width="48%" alt="Open Sentinel-Ledger, my retry-safe payment gateway"></a>
+  <a href="https://github.com/jayantsB123/RegisterRover"><img src="./assets/rover-pin.svg" width="48%" alt="Open RegisterRover, a camera-based attendance tracker"></a>
+</p>
