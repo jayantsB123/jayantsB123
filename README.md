@@ -57,3 +57,14 @@ What should happen when a transfer succeeds but the client times out and sends i
 **Data & testing** · Oracle, PostgreSQL, MySQL, Redis, Flyway, JUnit, Mockito
 
 **Education** · B.E. in Computer Engineering, Army Institute of Technology, Pune · 2021–2025 · CGPA **8.95**
+
+
+### GitHub activity
+
+<p align="center">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jayantsB123&amp;theme=tokyonight" alt="GitHub contribution timeline for Jayant Singh Bhadauria">
+</p>
+<p align="center">
+  <a href="https://github.com/jayantsB123?tab=repositories"><img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jayantsB123&amp;theme=tokyonight" alt="Top languages across my public repositories"></a>
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jayantsB123&amp;theme=tokyonight" alt="My GitHub commits, pull requests, issues and stars">
+</p>
