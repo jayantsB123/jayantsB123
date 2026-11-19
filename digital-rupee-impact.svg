@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370" role="img" aria-label="Digital Rupee impact: my token redemption engine supports ICICI's live base of 100M+ tokens. In multi-node acceptance tests I validated 100K+ redemptions per hour. I designed wallet provisioning for a rollout covering 13M+ users. My recovery engine is live at ICICI, PNB and SBI, and I adapted it for the offline e-rupee entry that placed second nationally at RBI Harbinger 2025.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a14"/>
+    </linearGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9933"/>
+      <stop offset="0.5" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#4cd964"/>
+    </linearGradient>
+    <linearGradient id="tri" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9933"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#138808"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="t1"><rect x="20" y="118" width="200" height="150" rx="14"/></clipPath>
+    <clipPath id="t2"><rect x="240" y="118" width="200" height="150" rx="14"/></clipPath>
+    <clipPath id="t3"><rect x="460" y="118" width="200" height="150" rx="14"/></clipPath>
+    <clipPath id="t4"><rect x="680" y="118" width="200" height="150" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .f { font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .h { font-weight: 700; font-size: 22px; fill: #e6edf3; }
+    .big { font-weight: 800; font-size: 42px; fill: url(#num); }
+    .cap { font-size: 13px; fill: #c9d1d9; font-weight: 600; }
+    .sub { font-size: 12px; fill: #8b949e; }
+    .tag { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
+  </style>
+
+  <rect width="900" height="370" rx="16" fill="url(#bg)" stroke="#30363d"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#tri)"/>
+
+  <!-- header -->
+  <text x="24" y="42" class="f h">e₹  ·  Digital Rupee, by the numbers</text>
+  <g transform="translate(730,36)">
+    <circle r="5" fill="#3fb950"><animate attributeName="opacity" dur="1.4s" repeatCount="indefinite" values="1;0.25;1"/></circle>
+    <circle r="5" fill="none" stroke="#3fb950"><animate attributeName="r" dur="1.4s" repeatCount="indefinite" values="5;14"/><animate attributeName="opacity" dur="1.4s" repeatCount="indefinite" values="0.8;0"/></circle>
+    <text x="16" y="4" class="f tag" fill="#3fb950" style="fill:#3fb950">IN PRODUCTION</text>
+  </g>
+
+  <!-- redemption pipeline -->
+  <text x="24" y="86" class="f tag">TOKEN</text>
+  <text x="876" y="86" text-anchor="end" class="f tag">REDEEMED</text>
+  <line x1="84" y1="82" x2="812" y2="82" stroke="#30363d" stroke-width="2" stroke-dasharray="3 6"/>
+  <g transform="translate(0,82)">
+    <circle r="5" fill="#ff9933"><animateMotion dur="3.6s" repeatCount="indefinite" begin="0s" path="M 84 0 H 812"/><animate attributeName="fill" dur="3.6s" repeatCount="indefinite" begin="0s" values="#ff9933;#ff9933;#4cd964"/></circle>
+    <circle r="5" fill="#ff9933"><animateMotion dur="3.6s" repeatCount="indefinite" begin="-0.9s" path="M 84 0 H 812"/><animate attributeName="fill" dur="3.6s" repeatCount="indefinite" begin="-0.9s" values="#ff9933;#ff9933;#4cd964"/></circle>
+    <circle r="5" fill="#ff9933"><animateMotion dur="3.6s" repeatCount="indefinite" begin="-1.8s" path="M 84 0 H 812"/><animate attributeName="fill" dur="3.6s" repeatCount="indefinite" begin="-1.8s" values="#ff9933;#ff9933;#4cd964"/></circle>
+    <circle r="5" fill="#ff9933"><animateMotion dur="3.6s" repeatCount="indefinite" begin="-2.7s" path="M 84 0 H 812"/><animate attributeName="fill" dur="3.6s" repeatCount="indefinite" begin="-2.7s" values="#ff9933;#ff9933;#4cd964"/></circle>
+  </g>
+  <rect x="440" y="70" width="22" height="24" rx="6" fill="#0d1117" stroke="#7c5cff" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" dur="1.8s" repeatCount="indefinite" values="1;0.3;1"/>
+  </rect>
+  <text x="451" y="109" text-anchor="middle" class="f tag" style="fill:#c4a7ff">ENGINE</text>
+
+  <!-- tile 1 -->
+  <rect x="20" y="118" width="200" height="150" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#t1)"><rect x="-220" y="118" width="120" height="150" fill="url(#shine)"><animate attributeName="x" dur="6s" repeatCount="indefinite" values="-140;260;260" keyTimes="0;0.6;1"/></rect></g>
+  <text x="38" y="172" class="f big">100M+</text>
+  <text x="38" y="198" class="f cap">tokens in ICICI's live base</text>
+  <text x="38" y="216" class="f sub">served by my redemption engine</text>
+  <g transform="translate(203,136)"><circle r="9" fill="none" stroke="#30363d"/><circle r="2.5" cx="9" fill="#ff9933"><animateTransform attributeName="transform" type="rotate" dur="3s" repeatCount="indefinite" from="0" to="360"/></circle></g>
+
+  <!-- tile 2 -->
+  <rect x="240" y="118" width="200" height="150" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#t2)"><rect x="-220" y="118" width="120" height="150" fill="url(#shine)"><animate attributeName="x" dur="6s" repeatCount="indefinite" begin="0.6s" values="100;480;480" keyTimes="0;0.6;1"/></rect></g>
+  <text x="258" y="172" class="f big">100K+</text>
+  <text x="258" y="198" class="f cap">redemptions per hour</text>
+  <text x="258" y="216" class="f sub">validated on multi-node tests</text>
+  <g transform="translate(423,136)"><circle r="9" fill="none" stroke="#30363d"/><circle r="2.5" cx="9" fill="#ffffff"><animateTransform attributeName="transform" type="rotate" dur="1.6s" repeatCount="indefinite" from="0" to="360"/></circle></g>
+
+  <!-- tile 3 -->
+  <rect x="460" y="118" width="200" height="150" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#t3)"><rect x="-220" y="118" width="120" height="150" fill="url(#shine)"><animate attributeName="x" dur="6s" repeatCount="indefinite" begin="1.2s" values="320;700;700" keyTimes="0;0.6;1"/></rect></g>
+  <text x="478" y="172" class="f big">13M+</text>
+  <text x="478" y="198" class="f cap">users in one rollout</text>
+  <text x="478" y="216" class="f sub">wallet provisioning I designed</text>
+  <g transform="translate(643,136)"><circle r="9" fill="none" stroke="#30363d"/><circle r="2.5" cx="9" fill="#4cd964"><animateTransform attributeName="transform" type="rotate" dur="2.2s" repeatCount="indefinite" from="0" to="360"/></circle></g>
+
+  <!-- tile 4 -->
+  <rect x="680" y="118" width="200" height="150" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#t4)"><rect x="-220" y="118" width="120" height="150" fill="url(#shine)"><animate attributeName="x" dur="6s" repeatCount="indefinite" begin="1.8s" values="540;920;920" keyTimes="0;0.6;1"/></rect></g>
+  <text x="698" y="172" class="f big">3<tspan font-size="22" dx="6">banks</tspan></text>
+  <text x="698" y="198" class="f cap">recovery engine, live</text>
+  <g class="f" font-size="11" font-weight="700">
+    <rect x="698" y="208" width="46" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="721" y="222" text-anchor="middle" style="fill:#ffb86b">ICICI</text>
+    <rect x="750" y="208" width="40" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="770" y="222" text-anchor="middle" style="fill:#e6edf3">PNB</text>
+    <rect x="796" y="208" width="38" height="20" rx="10" fill="#161b22" stroke="#30363d"/><text x="815" y="222" text-anchor="middle" style="fill:#79c0ff">SBI</text>
+  </g>
+  <circle cx="863" cy="136" r="4" fill="#3fb950"><animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" values="1;0.2;1"/></circle>
+
+  <!-- footer -->
+  <rect x="20" y="286" width="860" height="62" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="21" y="287" width="6" height="60" rx="3" fill="url(#tri)"/>
+  <g transform="translate(62,317)">
+    <circle r="18" fill="#161b22" stroke="#c0c6cf" stroke-width="2"/>
+    <circle r="22" fill="none" stroke="#c0c6cf" stroke-width="1" opacity="0.6"><animate attributeName="r" dur="2.4s" repeatCount="indefinite" values="18;28"/><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="0.7;0"/></circle>
+    <text y="7" text-anchor="middle" class="f" font-size="20" font-weight="800" style="fill:#e6edf3">2</text>
+  </g>
+  <text x="100" y="313" class="f" font-size="16" font-weight="700" style="fill:#e6edf3">Offline e₹ at RBI Harbinger 2025</text>
+  <text x="100" y="334" class="f sub">Took the same recovery engine offline. Our team placed second nationally.</text>
+</svg>

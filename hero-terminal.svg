@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="Terminal animation: Jayant is a Java backend and React developer and competitive programmer who builds scalable systems, and who also lifts, runs, treks and tours on a motorcycle.">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="0.5" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#ff9933"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10161f"/>
+      <stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <clipPath id="frame"><rect x="2" y="2" width="896" height="316" rx="16"/></clipPath>
+
+    <clipPath id="c1"><rect x="40" y="64" width="0" height="28"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;100;100;0" keyTimes="0;0.0278;0.1111;0.9167;1"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="98" width="0" height="28"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;590;590;0" keyTimes="0;0.1389;0.2222;0.9167;1"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="132" width="0" height="28"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;360;360;0" keyTimes="0;0.2778;0.3611;0.9167;1"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="166" width="0" height="28"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;560;560;0" keyTimes="0;0.3889;0.4722;0.9167;1"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="200" width="0" height="28"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;280;280;0" keyTimes="0;0.5278;0.6111;0.9167;1"/></rect></clipPath>
+    <clipPath id="c6"><rect x="40" y="234" width="0" height="28"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;560;560;0" keyTimes="0;0.6389;0.7222;0.9167;1"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="2" y="2" width="896" height="316" rx="16" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <circle cx="140" cy="260" r="90" fill="#7c5cff" opacity="0.35" filter="url(#blur)">
+      <animate attributeName="cx" dur="14s" repeatCount="indefinite" values="140;300;140"/>
+    </circle>
+    <circle cx="760" cy="80" r="90" fill="#00d4ff" opacity="0.28" filter="url(#blur)">
+      <animate attributeName="cy" dur="11s" repeatCount="indefinite" values="80;230;80"/>
+    </circle>
+    <circle cx="820" cy="270" r="70" fill="#ff9933" opacity="0.25" filter="url(#blur)">
+      <animate attributeName="cx" dur="16s" repeatCount="indefinite" values="820;620;820"/>
+    </circle>
+    <rect x="2" y="2" width="896" height="38" fill="#161b22" opacity="0.9"/>
+  </g>
+  <rect x="2" y="2" width="896" height="316" rx="16" fill="none" stroke="url(#edge)" stroke-width="2">
+    <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values="0.55;1;0.55"/>
+  </rect>
+  <circle cx="26" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="21" r="6" fill="#27c93f"/>
+  <text x="450" y="26" text-anchor="middle" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="13" fill="#8b949e">jayant@pune: ~</text>
+
+  <!-- typed lines -->
+  <g font-family="'Courier New', ui-monospace, 'DejaVu Sans Mono', monospace" font-size="16" style="white-space:pre">
+    <g clip-path="url(#c1)"><text x="40" y="84"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text></g>
+    <g clip-path="url(#c2)"><text x="40" y="118"><tspan fill="#00d4ff">&gt; Java backend dev · React up front · Codeforces nerd</tspan></text></g>
+    <g clip-path="url(#c3)"><text x="40" y="152"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> ./build --scalable --retry-safe</tspan></text></g>
+    <g clip-path="url(#c4)"><text x="40" y="186"><tspan fill="#ffb86b">&gt; servers agree. money moves once. pagers stay quiet.</tspan></text></g>
+    <g clip-path="url(#c5)"><text x="40" y="220"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> ls ~/life-outside-code</tspan></text></g>
+    <g clip-path="url(#c6)"><text x="40" y="254"><tspan fill="#c4a7ff">&gt; gym/  runs/  treks/  bike-tours/  new-roads/</tspan></text></g>
+    <text x="40" y="288"><tspan fill="#3fb950">$</tspan></text>
+    <rect x="62" y="273" width="10" height="19" fill="#e6edf3" opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.74;0.76;0.80;0.84;0.88;0.92;0.94;0.96;0.98;1"/>
+    </rect>
+  </g>
+</svg>
