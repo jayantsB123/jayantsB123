@@ -1,5 +1,5 @@
 
-<img align="right" width="24%" src="./assets/124.gif" alt="Developer working at a laptop">
+<a href="https://jayant07-portfolio.netlify.app/"><img align="right" width="24%" src="./assets/124.gif" alt="Developer working at a laptop"></a>
 
 # Hey, I'm Jayant Singh Bhadauria 👋
 
@@ -37,7 +37,7 @@ Basically, I enjoy building things, breaking puzzles, and finding new ways to ch
 
 Currently building **India's Digital Rupee (e₹)** — working on payment infrastructure, transaction processing, wallet provisioning, recovery mechanisms and resilient backend systems.
 
-<img width="100%" src="./assets/digital-rupee-scale.svg" alt="Digital Rupee engineering impact: 100M+ token ecosystem, 100K+ redemptions per hour validated, and 13M+ user rollout coverage">
+<a href="#-beyond-the-terminal"><img width="100%" src="./assets/digital-rupee-scale.svg" alt="Digital Rupee engineering impact: 100M+ token ecosystem, 100K+ redemptions per hour validated, and 13M+ user rollout coverage"></a>
 
 My work contributes to digital currency infrastructure across **ICICI, PNB and SBI**, with a focus on making financial transactions reliable, scalable and resilient.
 
@@ -64,10 +64,8 @@ I like competing, building things under pressure, and occasionally making comput
 
 ## 🛠️ My Engineering Playground
 
-<img width="100%" src="./assets/engineering-stack.svg" alt="Java, C++, Python, JavaScript, React, Angular, Spring Boot, Kafka, Redis, RabbitMQ, PostgreSQL, Oracle, Docker and Kubernetes">
-
 <details>
-<summary><strong>Explore my full engineering toolkit</strong></summary>
+<summary><img width="100%" src="./assets/engineering-stack.svg" alt="Java, C++, Python, JavaScript, React, Angular, Spring Boot, Kafka, Redis, RabbitMQ, PostgreSQL, Oracle, Docker and Kubernetes"><br><strong>Explore my full engineering toolkit</strong></summary>
 
 <br>
 
@@ -92,21 +90,21 @@ I like competing, building things under pressure, and occasionally making comput
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jayantsB123&theme=tokyonight" alt="GitHub contribution overview">
+  <a href="https://github.com/jayantsB123#js-contribution-activity"><img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jayantsB123&theme=tokyonight" alt="GitHub contribution overview"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/jayantsB123?tab=repositories">
     <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jayantsB123&theme=tokyonight" alt="Most used programming languages">
   </a>
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jayantsB123&theme=tokyonight" alt="GitHub statistics">
+  <a href="https://github.com/jayantsB123#js-contribution-activity"><img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jayantsB123&theme=tokyonight" alt="GitHub statistics"></a>
 </p>
 
 ---
 
 ## 🔥 Contribution Replay
 
-<img src="./assets/contribution-replay.svg" width="100%" alt="Animated replay of my GitHub contribution calendar">
+<a href="https://github.com/jayantsB123#js-contribution-activity"><img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jayantsB123&amp;bg_color=171927&amp;color=c7cbe8&amp;line=84e6d2&amp;point=c7a3ff&amp;area=true&amp;hide_border=true&amp;custom_title=Contribution%20replay%20%C2%B7%20last%2031%20days" alt="Rolling 31-day GitHub contribution graph. Open detailed activity."></a>
 
 ---
 
@@ -119,6 +117,11 @@ I like competing, building things under pressure, and occasionally making comput
   <a href="https://github.com/jayantsB123/RegisterRover">
     <img src="./assets/rover-pin.svg" width="48%" alt="RegisterRover attendance tracker">
   </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/jayantsB123/Sentinel-Ledger/commits"><img alt="Sentinel-Ledger latest commit" src="https://img.shields.io/github/last-commit/jayantsB123/Sentinel-Ledger?label=Sentinel-Ledger&amp;style=flat-square&amp;color=c7a3ff"></a>
+  <a href="https://github.com/jayantsB123/RegisterRover/commits"><img alt="RegisterRover latest commit" src="https://img.shields.io/github/last-commit/jayantsB123/RegisterRover?label=RegisterRover&amp;style=flat-square&amp;color=84e6d2"></a>
 </p>
 
 <p align="center">
@@ -136,3 +139,4 @@ I like competing, building things under pressure, and occasionally making comput
 <p align="center">
   <b>Thanks for stopping by! Now go build something cool. 👨‍💻</b>
 </p>
+
