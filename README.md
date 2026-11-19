@@ -1,80 +1,164 @@
-<img align="right" width="24%" src="./assets/124.gif" alt="Animated developer working at a laptop">
 
-# Hey, I’m Jayant Singh Bhadauria 👋
+<img align="right" width="24%" src="./assets/124.gif" alt="Developer working at a laptop">
 
-Pune, India · Java backend developer · Competitive programmer
+# Hey, I'm Jayant Singh Bhadauria 👋
 
-I build backends in **Java and Spring Boot** and work across the stack with **React**. My kind of puzzle is getting several servers to agree on what happened. In [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger), that means a payment can be retried without moving money twice.
+**Java Backend Engineer · Full-Stack Developer · Competitive Programmer**
 
-I’m [response_404 on Codeforces](https://codeforces.com/profile/response_404). Away from the keyboard, I lift, run, and plan trips around a good trek or a long ride on my motorcycle.
+📍 Pune, India
 
-<p><a href="https://jayant07-portfolio.netlify.app/"><img height="25" alt="Portfolio" src="https://img.shields.io/badge/Portfolio-6546A6?style=flat-square"></a> <a href="https://www.linkedin.com/in/jayant-singh-35a66222a/"><img height="25" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a> <a href="mailto:bhadauria.jayant07@gmail.com"><img height="25" alt="Email" src="https://img.shields.io/badge/Email-9C4055?style=flat-square&amp;logo=gmail&amp;logoColor=white"></a> <a href="https://leetcode.com/u/MidnightSnarl/"><img height="25" alt="LeetCode" src="https://img.shields.io/badge/LeetCode-594423?style=flat-square&amp;logo=leetcode&amp;logoColor=white"></a></p>
+I build scalable backend systems, engineer reliable payment workflows, and enjoy solving problems that make computers do interesting things.
+
+Mostly found somewhere between **Java, Spring Boot, distributed systems, and a ridiculously difficult DSA problem.**
+
+But life isn't just about shipping code.
+
+🏍️ Long rides · 🏔️ Trekking trails · ✈️ Spontaneous trips · 🏋️ Gym sessions · 🏃 Running · ♟️ Chess battles
+
+Basically, I enjoy building things, breaking puzzles, and finding new ways to challenge myself.
+
+**Code hard. Lift heavy. Ride far. Repeat.**
+
+<p>
+  <a href="https://jayant07-portfolio.netlify.app/"><img height="25" alt="Portfolio" src="https://img.shields.io/badge/Portfolio-6546A6?style=flat-square"></a>
+  <a href="https://www.linkedin.com/in/jayant-singh-35a66222a/"><img height="25" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a>
+  <a href="mailto:bhadauria.jayant07@gmail.com"><img height="25" alt="Email" src="https://img.shields.io/badge/Email-9C4055?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://leetcode.com/u/MidnightSnarl/"><img height="25" alt="LeetCode" src="https://img.shields.io/badge/LeetCode-594423?style=flat-square&logo=leetcode&logoColor=white"></a>
+  <a href="https://codeforces.com/profile/response_404"><img height="25" alt="Codeforces" src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white"></a>
+</p>
 
 <br clear="all">
 
-### CBDC & UPI developer at Sarvatra · Currently building India’s digital rupee (e₹)
+---
 
-<img width="100%" src="./assets/digital-rupee-scale.svg" alt="My token redemption engine supports ICICI’s live base of 100M+ tokens. In multi-node acceptance tests, I validated 100K+ redemptions per hour. I designed wallet provisioning for a rollout covering 13M+ users.">
+## ⚡ Building India's Digital Rupee
 
-My recovery engine is live at **ICICI, PNB and SBI**. I adapted it for our offline e₹ entry at **RBI Harbinger 2025**, where our team placed **second nationally**.
+### CBDC & UPI DEVELOPER
 
-### [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger) · My payment gateway
+Currently building **India's Digital Rupee (e₹)** — working on payment infrastructure, transaction processing, wallet provisioning, recovery mechanisms and resilient backend systems.
 
-What should happen when a transfer succeeds but the client times out and sends it again? I built a double-entry gateway in **Java and Spring Boot** to handle that case. Redis coordinates concurrent requests. PostgreSQL holds the ledger and enforces a unique idempotency key. A SHA-256 fingerprint catches a reused key with a different amount or destination.
+<img width="100%" src="./assets/digital-rupee-scale.svg" alt="Digital Rupee engineering impact: 100M+ token ecosystem, 100K+ redemptions per hour validated, and 13M+ user rollout coverage">
 
-<a href="https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java"><img width="100%" src="./assets/payment-retry.svg" alt="First request: check Redis, lock and recheck, look up the key in PostgreSQL, then write the ledger. Matching retry after completion: check the cached fingerprint and return the saved response."></a>
+My work contributes to digital currency infrastructure across **ICICI, PNB and SBI**, with a focus on making financial transactions reliable, scalable and resilient.
 
-[Read the retry logic →](https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java)
+From high-throughput token redemption to offline wallet recovery, I enjoy working on systems where reliability isn't optional.
 
-### Hackathons, fellowship & competitive programming
+**A little highlight:** Our offline Digital Rupee solution secured **2nd place nationally at RBI Harbinger 2025.** 🥈
 
-| Event | Result |
-| --- | --- |
-| 🥈 RBI Harbinger 2025 | **2nd nationally** with our offline digital rupee team |
-| 💻 MLH Fellowship | Selected among the **top 100 students across Asia** |
-| 🏆 Tally CodeBrewers 2023 | **Top 10** out of **12,200+ teams** nationwide |
-| 🎯 INNERVE 6.0 | **Top 5 finalist** in an event with **85,000+ registrations** |
-| ⚡ [Codeforces](https://codeforces.com/profile/response_404) & [LeetCode](https://leetcode.com/u/MidnightSnarl/) | **Specialist** on Codeforces, peak **1576**. Solved **1,000+ problems** across both platforms. |
+---
 
-### Languages & skills
+## 💳 Sentinel-Ledger — Building a Retry-Safe Payment Gateway
 
-<img width="100%" src="./assets/engineering-stack.svg" alt="Java 8, 11 and 17, C++, Python, and JavaScript with React and Angular. Backend, messaging and storage tools include Spring Boot, jPOS, Hibernate/JPA, Kafka, RabbitMQ, Redis, Oracle, PostgreSQL and MySQL.">
+<a href="https://github.com/jayantsB123/Sentinel-Ledger">
+  <img width="100%" src="./assets/payment-retry.svg" alt="Payment retry flow showing distributed locking, idempotency validation and double-entry ledger processing">
+</a>
+
+What happens when a payment succeeds, but the client times out and sends the same request again?
+
+**You definitely don't want to charge the customer twice.**
+
+That's the problem I wanted to solve with Sentinel-Ledger.
+
+Built using **Java, Spring Boot, Redis and PostgreSQL**, it explores:
+
+- **Idempotency:** Safely handles duplicate payment requests.
+- **Distributed locking:** Coordinates concurrent requests using Redis.
+- **Double-entry bookkeeping:** Maintains consistent debit and credit entries.
+- **Request fingerprinting:** SHA-256 detects reused idempotency keys with different payment details.
+- **Transaction safety:** PostgreSQL constraints and transactional processing protect ledger integrity.
+
+<a href="https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java">
+  **Explore the payment processing logic →**
+</a>
+
+---
+
+## 🏆 Beyond the Terminal
+
+I like competing, building things under pressure, and occasionally making computers solve problems that I probably shouldn't have spent three hours on.
+
+| Adventure | Achievement |
+| :--- | :--- |
+| 🥈 **RBI Harbinger 2025** | 2nd nationally — Offline Digital Rupee solution |
+| 💻 **MLH Fellowship** | Selected among the top 100 students across Asia |
+| 🏆 **Tally CodeBrewers 2023** | Top 10 out of 12,200+ teams |
+| 🎯 **INNERVE 6.0** | Top 5 finalist in an event with 85,000+ registrations |
+| ⚡ **Codeforces** | Specialist · Peak rating 1576 |
+| 🧩 **LeetCode + Codeforces** | 1,000+ problems solved across both platforms |
+
+---
+
+## 🛠️ My Engineering Playground
+
+<img width="100%" src="./assets/engineering-stack.svg" alt="Java, C++, Python, JavaScript, React, Angular, Spring Boot, Kafka, Redis, RabbitMQ, PostgreSQL, Oracle, Docker and Kubernetes">
 
 <details>
-<summary><strong>Explore my full engineering stack</strong></summary>
+<summary><strong>Explore my full engineering toolkit</strong></summary>
 
-| Area | Skills |
-| --- | --- |
-| Languages & frameworks | Java 8/11/17, C++, Python, JavaScript, React, Angular |
-| Backend & APIs | Spring Boot, Hibernate/JPA, REST APIs, microservices, event-driven architecture, jPOS (Q2, TransactionManager, Space) |
-| Concurrency & resilience | Multithreading with Java executors, distributed locking, idempotency, fault tolerance |
-| Messaging & caching | Kafka, RabbitMQ, Redis |
-| Databases | Oracle, PostgreSQL, MySQL, SQL query optimization |
-| Infrastructure & delivery | Docker, Kubernetes, Git, GitHub, Gradle, Flyway |
-| Testing & quality | Unit testing, JUnit, Mockito, test-driven validation, secure coding |
-| Engineering fundamentals | Data structures and algorithms, object-oriented design, distributed systems design |
+<br>
+
+| Domain | Technologies |
+| :--- | :--- |
+| Languages | Java 8/11/17, C++, Python, JavaScript |
+| Frontend | React, Angular |
+| Backend | Spring Boot, Hibernate/JPA, REST APIs, Microservices |
+| Payment Systems | jPOS, Q2, TransactionManager, Space |
+| Distributed Systems | Multithreading, Distributed Locking, Idempotency, Fault Tolerance |
+| Messaging | Apache Kafka, RabbitMQ |
+| Caching | Redis |
+| Databases | Oracle, PostgreSQL, MySQL |
+| DevOps & Tools | Docker, Kubernetes, Git, GitHub, Gradle, Flyway |
+| Testing | JUnit, Mockito, Postman, JMeter |
+| Fundamentals | Data Structures, Algorithms, OOP, System Design |
 
 </details>
 
-### GitHub activity
+---
+
+## 📊 GitHub Activity
 
 <p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jayantsB123&amp;theme=tokyonight" alt="GitHub contribution timeline for Jayant Singh Bhadauria">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jayantsB123&theme=tokyonight" alt="GitHub contribution overview">
 </p>
-<p align="center">
-  <a href="https://github.com/jayantsB123?tab=repositories"><img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jayantsB123&amp;theme=tokyonight" alt="Top languages across my public repositories"></a>
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jayantsB123&amp;theme=tokyonight" alt="My GitHub commits, pull requests, issues and stars">
-</p>
-
-
-### Contribution replay
-
-<img src="./assets/contribution-replay.svg" width="100%" alt="Animated replay of my GitHub contribution calendar through November 19, 2026. Brighter squares indicate more contributions.">
-
-### From my pins
 
 <p align="center">
-  <a href="https://github.com/jayantsB123/Sentinel-Ledger"><img src="./assets/sentinel-pin.svg" width="48%" alt="Open Sentinel-Ledger, my retry-safe payment gateway"></a>
-  <a href="https://github.com/jayantsB123/RegisterRover"><img src="./assets/rover-pin.svg" width="48%" alt="Open RegisterRover, a camera-based attendance tracker"></a>
+  <a href="https://github.com/jayantsB123?tab=repositories">
+    <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jayantsB123&theme=tokyonight" alt="Most used programming languages">
+  </a>
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jayantsB123&theme=tokyonight" alt="GitHub statistics">
 </p>
 
+---
+
+## 🔥 Contribution Replay
+
+<img src="./assets/contribution-replay.svg" width="100%" alt="Animated replay of my GitHub contribution calendar">
+
+---
+
+## 🚀 Things I've Built
+
+<p align="center">
+  <a href="https://github.com/jayantsB123/Sentinel-Ledger">
+    <img src="./assets/sentinel-pin.svg" width="48%" alt="Sentinel-Ledger payment gateway">
+  </a>
+  <a href="https://github.com/jayantsB123/RegisterRover">
+    <img src="./assets/rover-pin.svg" width="48%" alt="RegisterRover attendance tracker">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/jayantsB123?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>"The best adventures happen outside your comfort zone — whether it's a production system, a mountain trail, or an unfamiliar road."</i>
+</p>
+
+<p align="center">
+  <b>Thanks for stopping by! Now go build something cool. 👨‍💻</b>
+</p>
