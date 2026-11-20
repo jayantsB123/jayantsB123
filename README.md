@@ -1,5 +1,4 @@
 <img width="100%" src="./assets/hero-terminal.svg" alt="Animated terminal: Java backend dev, React up front, Codeforces nerd. Servers agree, money moves once. Gym, runs, treks, bike tours.">
-
 <img align="right" width="22%" src="./assets/124.gif" alt="Animated developer working at a laptop">
 
 # Hey, I'm Jayant Singh Bhadauria 👋
