@@ -1,0 +1,15 @@
+{
+  "username": "jayantsB123",
+  "seconds_per_scene": 12,
+  "themes": [
+    "circuit",
+    "garage",
+    "terminal",
+    "city",
+    "universe"
+  ],
+  "featured": [
+    "Sentinel-Ledger",
+    "RegisterRover"
+  ]
+}

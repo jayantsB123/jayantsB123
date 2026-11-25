@@ -1,4 +1,8 @@
-<img width="100%" src="./assets/hero-terminal.svg" alt="Animated terminal: Java backend dev, React up front, Codeforces nerd. Servers agree, money moves once. Gym, runs, treks, bike tours.">
+<!-- profile-cycle:start -->
+<img width="100%" src="./assets/profile-cycle/cycle.svg" alt="Jayant Singh Bhadauria: rotating Circuit Fabric, Engineering Garage, Developer OS, Contribution City and Repository Universe; contribution calendar and engineering impact.">
+
+<p align="center"><a href="./assets/profile-cycle/circuit.svg">Circuit</a> · <a href="./assets/profile-cycle/garage.svg">Garage</a> · <a href="./assets/profile-cycle/terminal.svg">Developer OS</a> · <a href="./assets/profile-cycle/city.svg">City</a> · <a href="./assets/profile-cycle/universe.svg">Universe</a></p>
+<!-- profile-cycle:end -->
 <img align="right" width="22%" src="./assets/124.gif" alt="Animated developer working at a laptop">
 
 # Hey, I'm Jayant Singh Bhadauria 👋
@@ -71,9 +75,9 @@ What should happen when a transfer succeeds but the client times out and sends i
   <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jayantsB123&amp;theme=tokyonight" alt="My GitHub commits, pull requests, issues and stars">
 </p>
 
-### 🎞️ Contribution replay
+### 🎞️ Contribution visualizations
 
-<img src="./assets/contribution-replay.svg" width="100%" alt="Animated replay of my GitHub contribution calendar through November 19, 2026. Brighter squares indicate more contributions.">
+The banner above cycles through five representations of my contribution calendar. [Original contribution replay (19 Nov 2026)](./assets/contribution-replay.svg).
 
 ### 📌 From my pins
 
