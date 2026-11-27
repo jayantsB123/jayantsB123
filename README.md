@@ -1,5 +1,4 @@
 <img width="100%" src="./assets/hero-terminal.svg" alt="Animated terminal: Java backend dev, React up front, Codeforces nerd. Servers agree, money moves once. Gym, runs, treks, bike tours.">
-<img align="right" width="22%" src="./assets/124.gif" alt="Animated developer working at a laptop">
 
 # Hey, I'm Jayant Singh Bhadauria 👋
 
@@ -22,14 +21,6 @@ Mostly found somewhere between **Java, Spring Boot, distributed systems, and a r
 ### 🇮🇳 CBDC & UPI developer · currently building India's Digital Rupee (e₹)
 
 <img width="100%" src="./assets/digital-rupee-impact.svg" alt="My token redemption engine supports ICICI's live base of 100M+ tokens. In multi-node acceptance tests, I validated 100K+ redemptions per hour. I designed wallet provisioning for a rollout covering 13M+ users. My recovery engine is live at ICICI, PNB and SBI, and I took it offline for e₹ at RBI Harbinger 2025, where our team placed second nationally.">
-
-### [Sentinel-Ledger](https://github.com/jayantsB123/Sentinel-Ledger) · My payment gateway
-
-What should happen when a transfer succeeds but the client times out and sends it again? I built a double-entry gateway in **Java and Spring Boot** to handle that case. Redis coordinates concurrent requests. PostgreSQL holds the ledger and enforces a unique idempotency key. A SHA-256 fingerprint catches a reused key with a different amount or destination.
-
-<a href="https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java"><img width="100%" src="./assets/payment-retry.svg" alt="First request: check Redis, lock and recheck, look up the key in PostgreSQL, then write the ledger. Matching retry after completion: check the cached fingerprint and return the saved response."></a>
-
-[Read the retry logic →](https://github.com/jayantsB123/Sentinel-Ledger/blob/main/src/main/java/com/jayant/payment/Sentinel_Ledger/service/impl/PaymentServiceImpl.java)
 
 ### 🏆 Trophy shelf
 
